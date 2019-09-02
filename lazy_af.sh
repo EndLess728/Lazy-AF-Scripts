@@ -8,4 +8,5 @@ git clone https://github.com/asusmaxprom2/android_vendor_asus_X01BD vendor/asus/
 
 
 #Remove conflicts (Already defined in device tree) 
+rm -rf device/asus/X01BD/data-ipa-cfg-mgr
 #rm -rf vendor/cos/packages/overlays/NoCutoutOverlay
