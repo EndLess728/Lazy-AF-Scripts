@@ -9,10 +9,10 @@ git clone https://github.com/asusmaxprom2/android_vendor_asus_X01BD vendor/asus/
 ## My Cosmic Stuff
 rm -rf fram*/base
 git clone https://github.com/asusmaxprom2/platform_frameworks_base -b corona-release frameworks/base
-#rm -rf packages/apps/Longshot
-#git clone https://github.com/PixelExperience/packages_apps_Longshot packages/apps/Longshot
-#rm -rf vendor/cos
-#git clone https://github.com/asusmaxprom2/platform_vendor_cos.git -b corona-release vendor/cos
+rm -rf packages/apps/Longshot
+git clone https://github.com/asusmaxprom2/platform_packages_apps_Longshot.git packages/apps/Longshot
+rm -rf vendor/cos
+git clone https://github.com/asusmaxprom2/platform_vendor_cos.git -b corona-release vendor/cos
 
 #Remove conflicts (Already defined in device tree) 
 rm -rf device/asus/X01BD/data-ipa-cfg-mgr
