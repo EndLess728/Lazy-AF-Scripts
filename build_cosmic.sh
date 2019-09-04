@@ -19,7 +19,7 @@ rm -rf device/asus/X01BD/data-ipa-cfg-mgr
 rm -rf vendor/cos/packages/overlays/NoCutoutOverlay
 
 ## Build commands
-.build/envsetup.sh
+. build/envsetup.sh
 brunch X01BD
 
 
