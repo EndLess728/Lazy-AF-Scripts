@@ -1,6 +1,6 @@
 #Device specific BLOBS 
 rm -rf device/asus/X01BD
-git clone https://github.com/asusmaxprom2/android_device_asus_X01BD.git -b cosmic device/asus/X01BD
+git clone https://github.com/asusmaxprom2/android_device_asus_X01BD.git -b cosmic-clang device/asus/X01BD
 rm -rf kernel/asus/sdm660
 git clone https://github.com/wahyu17/Aegis-X01BD.git -b Aegis-Pie kernel/asus/sdm660
 rm -rf vendor/asus/X01BD
