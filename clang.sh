@@ -13,6 +13,8 @@ rm -rf packages/apps/Longshot
 git clone https://github.com/asusmaxprom2/platform_packages_apps_Longshot.git packages/apps/Longshot
 rm -rf vendor/cos
 git clone https://github.com/asusmaxprom2/platform_vendor_cos.git -b corona-release vendor/cos
+rm -rf packages/apps/Galaxy
+git clone https://github.com/asusmaxprom2/platform_packages_apps_Galaxy.git -b corona-release packages/apps/Galaxy
 
 #Remove conflicts (Already defined in device tree) 
 rm -rf device/asus/X01BD/data-ipa-cfg-mgr
