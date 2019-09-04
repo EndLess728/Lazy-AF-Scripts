@@ -17,3 +17,10 @@ git clone https://github.com/asusmaxprom2/platform_frameworks_base -b corona-rel
 #Remove conflicts (Already defined in device tree) 
 rm -rf device/asus/X01BD/data-ipa-cfg-mgr
 rm -rf vendor/cos/packages/overlays/NoCutoutOverlay
+
+## Build commands
+.build/envsetup.sh
+brunch X01BD
+
+
+
