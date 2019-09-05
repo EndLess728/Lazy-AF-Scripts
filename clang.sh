@@ -15,6 +15,8 @@ rm -rf vendor/cos
 git clone https://github.com/asusmaxprom2/platform_vendor_cos.git -b corona-release vendor/cos
 rm -rf device/custom/sepolicy
 git clone https://github.com/asusmaxprom2/device_custom_sepolicy -b corona-release device/custom/sepolicy
+rm -rf packages/apps/Dirac
+git clone https://github.com/asusmaxprom2/android_packages_apps_Dirac.git packages/apps/Dirac
 #rm -rf packages/apps/Galaxy
 #git clone https://github.com/asusmaxprom2/platform_packages_apps_Galaxy.git -b corona-release packages/apps/Galaxy
 
