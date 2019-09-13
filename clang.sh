@@ -8,13 +8,13 @@ git clone https://github.com/asusmaxprom2/android_vendor_asus_X01BD vendor/asus/
 
 ## My Cosmic Stuff
 rm -rf fram*/base
-git clone https://github.com/asusmaxprom2/platform_frameworks_base -b corona-release frameworks/base
-rm -rf packages/apps/Longshot
-git clone https://github.com/asusmaxprom2/platform_packages_apps_Longshot.git packages/apps/Longshot
-rm -rf vendor/cos
-git clone https://github.com/asusmaxprom2/platform_vendor_cos.git -b corona-release vendor/cos
-rm -rf device/custom/sepolicy
-git clone https://github.com/asusmaxprom2/device_custom_sepolicy -b corona-release device/custom/sepolicy
+git clone https://github.com/MyTestLobby/platform_frameworks_base -b corona-release frameworks/base
+#rm -rf packages/apps/Longshot
+#git clone https://github.com/asusmaxprom2/platform_packages_apps_Longshot.git packages/apps/Longshot
+#rm -rf vendor/cos
+#git clone https://github.com/asusmaxprom2/platform_vendor_cos.git -b corona-release vendor/cos
+#rm -rf device/custom/sepolicy
+#git clone https://github.com/asusmaxprom2/device_custom_sepolicy -b corona-release device/custom/sepolicy
 rm -rf packages/apps/Dirac
 git clone https://github.com/asusmaxprom2/android_packages_apps_Dirac.git packages/apps/Dirac
 #rm -rf packages/apps/Galaxy
