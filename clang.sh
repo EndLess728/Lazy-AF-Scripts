@@ -20,6 +20,10 @@ git clone https://github.com/asusmaxprom2/android_packages_apps_Dirac.git packag
 #rm -rf packages/apps/Galaxy
 #git clone https://github.com/asusmaxprom2/platform_packages_apps_Galaxy.git -b corona-release packages/apps/Galaxy
 
+#Track Clang from Havoc
+rm -rf prebuilts/clang/host/linux-x86
+git clone https://github.com/Havoc-OS/android_prebuilts_clang_host_linux-x86 prebuilts/clang/host/linux-x86
+
 #Remove conflicts (Already defined in device tree) 
 rm -rf device/asus/X01BD/data-ipa-cfg-mgr
 rm -rf vendor/cos/packages/overlays/NoCutoutOverlay
