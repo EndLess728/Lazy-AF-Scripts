@@ -15,7 +15,7 @@ rm -rf prebuilts/clang/host/linux-x86
 git clone https://github.com/Havoc-OS/android_prebuilts_clang_host_linux-x86 prebuilts/clang/host/linux-x86
 
 #Remove conflicts (Already defined in device tree) 
-#rm -rf device/asus/X01BD/data-ipa-cfg-mgr
+rm -rf device/asus/X01BD/data-ipa-cfg-mgr
 #rm -rf vendor/cos/packages/overlays/NoCutoutOverlay
 
 
