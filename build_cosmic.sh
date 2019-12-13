@@ -6,6 +6,10 @@ git clone https://github.com/SonalSingh18/android_kernel_asus_sdm660.git -b ten 
 rm -rf vendor/asus/X01BD
 git clone https://github.com/X01BD-Android-Q/android_vendor_asus_X01BD.git -b q vendor/asus/X01BD
 
+#Clang
+rm -rf prebuilts/clang/host/linux-x86
+git clone https://github.com/SonalSingh18/prebuilts_clang_host_linux-x86_clang-10.0.1.git prebuilts/clang/host/linux-x86
+
 ## My Cosmic Stuff
 #rm -rf fram*/base
 #git clone https://github.com/asusmaxprom2/platform_frameworks_base -b corona-release frameworks/base
