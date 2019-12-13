@@ -13,6 +13,7 @@ git clone https://github.com/SonalSingh18/prebuilts_clang_host_linux-x86_clang-1
 #Device Settings for Doze
 rm -rf packages/resources/devicesettings
 git clone https://github.com/LineageOS/android_packages_resources_devicesettings.git packages/resources/devicesettings
+
 ## My Cosmic Stuff
 #rm -rf fram*/base
 #git clone https://github.com/asusmaxprom2/platform_frameworks_base -b corona-release frameworks/base
@@ -23,7 +24,7 @@ git clone https://github.com/LineageOS/android_packages_resources_devicesettings
 
 #Remove conflicts (Already defined in device tree) 
 #rm -rf device/asus/X01BD/data-ipa-cfg-mgr
-#rm -rf vendor/cos/packages/overlays/NoCutoutOverlay
+rm -rf vendor/cos/packages/overlays/NoCutoutOverlay
 
 ## Build commands
 #. build/envsetup.sh
