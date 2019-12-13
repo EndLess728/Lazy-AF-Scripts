@@ -8,7 +8,7 @@ git clone https://github.com/X01BD-Android-Q/android_vendor_asus_X01BD.git -b q 
 
 #Clang
 rm -rf prebuilts/clang/host/linux-x86
-git clone https://github.com/SonalSingh18/prebuilts_clang_host_linux-x86_clang-10.0.1.git /prebuilts/clang/host/linux-x86/clang-10.0.1
+git clone https://github.com/SonalSingh18/prebuilts_clang_host_linux-x86_clang-10.0.1.git prebuilts/clang/host/linux-x86/clang-10.0.1
 
 #Device Settings for Doze
 rm -rf packages/resources/devicesettings
