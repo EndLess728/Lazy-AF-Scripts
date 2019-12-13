@@ -4,7 +4,7 @@ I am so lazy to write build commands
 
 ### Run Commands
 
-* git clone https://github.com/asusmaxprom2/Lazy-AF-Scripts && bash Lazy*/clang.sh
+* git clone https://github.com/asusmaxprom2/Lazy-AF-Scripts && bash Lazy*/build_comsic.sh
 
 Done
 
