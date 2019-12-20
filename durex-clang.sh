@@ -18,7 +18,7 @@ rm -rf packages/apps/Snap
 git clone https://github.com/Havoc-OS/android_packages_apps_Snap.git -b ten packages/apps/Snap
 
 rm -rf packages/apps/Messaging
-git clone https://github.com/LineageOS/android_packages_apps_Messaging.git packages/apps/Messeging
+git clone https://github.com/LineageOS/android_packages_apps_Messaging.git packages/apps/Messaging
 
 #Remove conflicts (Already defined in device tree) 
 #rm -rf device/asus/X01BD/data-ipa-cfg-mgr
