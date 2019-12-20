@@ -25,4 +25,4 @@ git clone https://github.com/Havoc-OS/android_packages_apps_Snap.git -b ten pack
 ## Build commands
 . build/envsetup.sh
 lunch du_X01BD-userdebug
-brunch X01BD
+make durex
