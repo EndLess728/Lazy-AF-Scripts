@@ -14,6 +14,13 @@ git clone https://github.com/SonalSingh18/prebuilts_clang_host_linux-x86_clang-1
 rm -rf packages/resources/devicesettings
 git clone https://github.com/LineageOS/android_packages_resources_devicesettings.git packages/resources/devicesettings
 
+#hals
+rm -rf hardware/qcom/media/msm8998
+git clone https://github.com/SonalSingh18/Q-Hals.git -b media-pa hardware/qcom/media/msm8998
+rm -rf hardware/qcom/audio/msm8998
+git clone https://github.com/SonalSingh18/Q-Hals.git -b audio-pa hardware/qcom/audio/msm8998
+rm -rf hardware/qcom/display/msm8998
+git clone https://github.com/SonalSingh18/Q-Hals.git -b display-pa hardware/qcom/display/msm8998
 ## My Cosmic Stuff
 #rm -rf fram*/base
 #git clone https://github.com/asusmaxprom2/platform_frameworks_base -b corona-release frameworks/base
