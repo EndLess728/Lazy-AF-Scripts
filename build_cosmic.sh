@@ -34,8 +34,9 @@ git clone https://github.com/SonalSingh18/Q-Hals.git -b display-pa hardware/qcom
 rm -rf vendor/cos/packages/overlays/NoCutoutOverlay
 
 ## Build commands
-#. build/envsetup.sh
-#brunch X01BD
+. build/envsetup.sh
+lunch cos_X01BD-userdebug
+brunch X01BD
 
 
 
