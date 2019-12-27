@@ -7,12 +7,12 @@ rm -rf vendor/asus/X01BD
 git clone https://github.com/X01BD-Android-Q/android_vendor_asus_X01BD.git -b q vendor/asus/X01BD
 
 #Clang
-rm -rf prebuilts/clang/host/linux-x86
-git clone https://github.com/SonalSingh18/prebuilts_clang_host_linux-x86_clang-10.0.1.git prebuilts/clang/host/linux-x86/clang-10.0.1
+#rm -rf prebuilts/clang/host/linux-x86
+#git clone https://github.com/SonalSingh18/prebuilts_clang_host_linux-x86_clang-10.0.1.git prebuilts/clang/host/linux-x86/clang-10.0.1
 
 #Device Settings for Doze
-rm -rf packages/resources/devicesettings
-git clone https://github.com/LineageOS/android_packages_resources_devicesettings.git packages/resources/devicesettings
+#rm -rf packages/resources/devicesettings
+#git clone https://github.com/LineageOS/android_packages_resources_devicesettings.git packages/resources/devicesettings
 
 #hals
 rm -rf hardware/qcom/media/msm8998
