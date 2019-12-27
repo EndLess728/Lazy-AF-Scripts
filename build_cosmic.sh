@@ -21,6 +21,8 @@ rm -rf hardware/qcom/audio/msm8998
 git clone https://github.com/SonalSingh18/Q-Hals.git -b audio-pa hardware/qcom/audio/msm8998
 rm -rf hardware/qcom/display/msm8998
 git clone https://github.com/SonalSingh18/Q-Hals.git -b display-pa hardware/qcom/display/msm8998
+rm -rf hardware/qcom/wlan/msm8998
+git clone https://github.com/SonalSingh18/Q-Hals.git -b wlan-caf hardware/qcom/wlan/msm8998
 ## My Cosmic Stuff
 #rm -rf fram*/base
 #git clone https://github.com/asusmaxprom2/platform_frameworks_base -b corona-release frameworks/base
