@@ -1,6 +1,6 @@
 rm -rf device/asus/X01BD
 
-git clone https://github.com/Flutter-Noob/android_device_asus_X01BD.git -b du device/asus/X01BD
+git clone https://github.com/Flutter-Noob/android_device_asus_X01BD.git -b conq device/asus/X01BD
 
 rm -rf kernel/asus/sdm660
 
@@ -24,6 +24,6 @@ rm -rf prebuilts/clang/host/linux-x86
 
 git clone https://github.com/SonalSingh18/prebuilts_clang_host_linux-x86_clang-10.0.1.git prebuilts/clang/host/linux-x86/clang-10.0.1
 
-rm -rf packages/apps/Snap
+#rm -rf packages/apps/Snap
 
-git clone https://github.com/Havoc-OS/android_packages_apps_Snap.git -b ten packages/apps/Snap
+#git clone https://github.com/Havoc-OS/android_packages_apps_Snap.git -b ten packages/apps/Snap
