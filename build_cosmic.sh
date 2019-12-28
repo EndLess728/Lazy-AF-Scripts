@@ -15,14 +15,16 @@ git clone https://github.com/X01BD-Android-Q/android_vendor_asus_X01BD.git -b q 
 #git clone https://github.com/LineageOS/android_packages_resources_devicesettings.git packages/resources/devicesettings
 
 #hals
-rm -rf hardware/qcom/media/msm8998
-git clone https://github.com/SonalSingh18/Q-Hals.git -b media-pa hardware/qcom/media/msm8998
-rm -rf hardware/qcom/audio/msm8998
-git clone https://github.com/SonalSingh18/Q-Hals.git -b audio-pa hardware/qcom/audio/msm8998
-rm -rf hardware/qcom/display/msm8998
-git clone https://github.com/SonalSingh18/Q-Hals.git -b display-pa hardware/qcom/display/msm8998
-rm -rf hardware/qcom/wlan/msm8998
-git clone https://github.com/SonalSingh18/Q-Hals.git -b wlan-caf hardware/qcom/wlan/msm8998
+rm -rf hardware/qcom/media
+#git clone https://github.com/SonalSingh18/Q-Hals.git -b media-pa hardware/qcom/media/msm8998
+git clone https://github.com/LineageOS/android_hardware_qcom_media.git -b lineage-17.0-caf-msm8998 hardware/qcom/media/msm8998
+rm -rf hardware/qcom/audio
+#git clone https://github.com/SonalSingh18/Q-Hals.git -b audio-pa hardware/qcom/audio/msm8998
+git clone https://github.com/LineageOS/android_hardware_qcom_audio.git -b lineage-17.0-caf-msm8998 hardware/qcom/audio/msm8998
+rm -rf hardware/qcom/display
+git clone https://github.com/LineageOS/android_hardware_qcom_display.git -b lineage-17.0-caf-msm8998 hardware/qcom/display/msm8998
+#rm -rf hardware/qcom/wlan/msm8998
+#git clone https://github.com/SonalSingh18/Q-Hals.git -b wlan-caf hardware/qcom/wlan/msm8998
 ## My Cosmic Stuff
 #rm -rf fram*/base
 #git clone https://github.com/asusmaxprom2/platform_frameworks_base -b corona-release frameworks/base
