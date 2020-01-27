@@ -37,6 +37,9 @@ git clone https://github.com/LineageOS/android_hardware_qcom_display.git -b line
 #rm -rf device/asus/X01BD/data-ipa-cfg-mgr
 rm -rf vendor/cos/packages/overlays/NoCutoutOverlay
 
+#Wireless ANT 
+https://github.com/LineageOS/android_external_ant-wireless_antradio-library.git external/ant-wireless/antradio-library
+
 ## Build commands
 . build/envsetup.sh
 lunch cos_X01BD-userdebug
