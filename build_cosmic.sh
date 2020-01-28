@@ -36,6 +36,7 @@ git clone https://github.com/LineageOS/android_hardware_qcom_display.git -b line
 #Remove conflicts (Already defined in device tree) 
 #rm -rf device/asus/X01BD/data-ipa-cfg-mgr
 rm -rf vendor/cos/packages/overlays/NoCutoutOverlay
+rm -rf vendor/qcom/opensource/data-ipa-cfg-mgr
 
 #Add Wlan Hals from AOSPA
 rm -rf hardware/qcom/wlan
