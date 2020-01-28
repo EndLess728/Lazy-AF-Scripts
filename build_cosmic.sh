@@ -37,6 +37,10 @@ git clone https://github.com/LineageOS/android_hardware_qcom_display.git -b line
 #rm -rf device/asus/X01BD/data-ipa-cfg-mgr
 rm -rf vendor/cos/packages/overlays/NoCutoutOverlay
 
+#Add Wlan Hals from AOSPA
+rm -rf hardware/qcom/wlan
+git clone https://github.com/AOSPA/android_hardware_qcom_wlan.git hardware/qcom/wlan
+
 #Wireless ANT 
 https://github.com/LineageOS/android_external_ant-wireless_antradio-library.git external/ant-wireless/antradio-library
 
