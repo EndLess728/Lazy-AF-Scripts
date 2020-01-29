@@ -32,7 +32,7 @@ rm -rf vendor/cos/packages/overlays/NoCutoutOverlay
 #git clone https://github.com/AOSPA/android_hardware_qcom_wlan.git hardware/qcom/wlan
 
 #Wireless ANT 
-https://github.com/LineageOS/android_external_ant-wireless_antradio-library.git external/ant-wireless/antradio-library
+git clone https://github.com/LineageOS/android_external_ant-wireless_antradio-library.git external/ant-wireless/antradio-library
 
 ## Build commands
 . build/envsetup.sh
