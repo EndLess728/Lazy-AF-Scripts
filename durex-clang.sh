@@ -29,4 +29,4 @@ rm -rf vendor/du/packages/overlays/NoCutoutOverlay
 ## Build commands
 . build/envsetup.sh
 lunch du_X01BD-userdebug
-make durex
+make corvus
