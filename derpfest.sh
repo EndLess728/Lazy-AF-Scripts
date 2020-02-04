@@ -1,6 +1,6 @@
 #Device specific BLOBS 
 rm -rf device/asus/X01BD
-git clone https://github.com/Flutter-Noob/android_device_asus_X01BD.git -b derp device/asus/X01BD
+git clone https://github.com/Flutter-Noob/android_device_asus_X01BD.git -b derpfest device/asus/X01BD
 rm -rf kernel/asus/sdm660
 git clone https://github.com/ZyCromerZ/android_kernel_asus_X01BD kernel/asus/sdm660
 #git clone https://github.com/SonalSingh18/android_kernel_asus_sdm660.git -b ten kernel/asus/sdm660
