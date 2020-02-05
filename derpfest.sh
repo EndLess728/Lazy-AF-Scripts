@@ -1,6 +1,6 @@
 #Device specific BLOBS 
 rm -rf device/asus/X01BD
-git clone https://github.com/Flutter-Noob/android_device_asus_X01BD.git -b derpfest device/asus/X01BD
+git clone https://github.com/Flutter-Noob/android_device_asus_X01BD.git -b test device/asus/X01BD
 rm -rf kernel/asus/sdm660
 git clone https://github.com/ZyCromerZ/android_kernel_asus_X01BD kernel/asus/sdm660
 #git clone https://github.com/SonalSingh18/android_kernel_asus_sdm660.git -b ten kernel/asus/sdm660
@@ -27,6 +27,6 @@ git clone https://github.com/X01BD-Android-Q/android_vendor_asus_X01BD.git -b q 
 
 
 ## Build commands
-#. build/envsetup.sh
-#lunch du_X01BD-userdebug
-#make corvus
+. build/envsetup.sh
+lunch du_X01BD-userdebug
+time mka kronic
