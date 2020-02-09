@@ -30,5 +30,5 @@ rm -rf vendor/gapps
 
 ## Build commands
 . build/envsetup.sh
-lunch du_X01BD-userdebug
+lunch derp_X01BD-userdebug
 time mka kronic
