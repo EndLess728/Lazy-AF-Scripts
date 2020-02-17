@@ -15,8 +15,8 @@ git clone https://github.com/X01BD-Android-Q/android_vendor_asus_X01BD.git -b q 
 rm -rf prebuilts/clang/host/linux-x86
 git clone https://github.com/SonalSingh18/prebuilts_clang_host_linux-x86_clang-10.0.1.git prebuilts/clang/host/linux-x86/clang-10.0.1
 
-rm -rf packages/apps/Snap
-git clone https://github.com/Havoc-OS/android_packages_apps_Snap.git -b ten packages/apps/Snap
+#rm -rf packages/apps/Snap
+#git clone https://github.com/Havoc-OS/android_packages_apps_Snap.git -b ten packages/apps/Snap
 
 #rm -rf packages/apps/Messaging
 #git clone https://github.com/LineageOS/android_packages_apps_Messaging.git packages/apps/Messaging
