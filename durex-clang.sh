@@ -23,7 +23,7 @@ git clone https://github.com/SonalSingh18/prebuilts_clang_host_linux-x86_clang-1
 
 #Remove conflicts (Already defined in device tree) 
 #rm -rf device/asus/X01BD/data-ipa-cfg-mgr
-rm -rf vendor/du/packages/overlays/NoCutoutOverlay
+rm -rf vendor/themes/overlays/NoCutoutOverlay
 
 
 ## Build commands
