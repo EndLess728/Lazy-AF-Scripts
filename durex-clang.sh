@@ -4,7 +4,7 @@ git clone https://github.com/React-Native-Noob/android_device_asus_X01BD.git -b 
 rm -rf kernel/asus/sdm660
 git clone https://github.com/SonalSingh18/android_kernel_asus_sdm660.git -b ten kernel/asus/sdm660
 rm -rf vendor/asus/X01BD
-git clone https://github.com/EndLess728/android_vendor_asus_X01BD.git -b ten vendor/asus/X01BD
+git clone hhttps://github.com/SonalSingh18/android_vendor_asus_X01BD.git -b ten vendor/asus/X01BD
 
 #Track Dirac
 #rm -rf packages/apps/Dirac
