@@ -12,8 +12,8 @@ git clone https://github.com/EndLess728/android_vendor_asus_X01BD -b ten vendor/
 #git clone https://github.com/asusmaxprom2/android_packages_apps_Dirac.git packages/apps/Dirac
 
 #Track Clang from Havoc
-rm -rf prebuilts/clang/host/linux-x86
-git clone https://github.com/SonalSingh18/prebuilts_clang_host_linux-x86_clang-10.0.4.git prebuilts/clang/host/linux-x86/clang-10.0.4
+#rm -rf prebuilts/clang/host/linux-x86
+#git clone https://github.com/SonalSingh18/prebuilts_clang_host_linux-x86_clang-10.0.4.git prebuilts/clang/host/linux-x86/clang-10.0.4
 #git clone https://github.com/crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-6207600.git prebuilts/clang/host/linux-x86/clang-6207600
 
 #rm -rf packages/apps/Snap
