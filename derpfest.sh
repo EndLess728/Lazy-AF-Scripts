@@ -22,6 +22,12 @@ git clone https://github.com/SonalSingh18/prebuilts_clang_host_linux-x86_clang-1
 #rm -rf packages/apps/Messaging
 #git clone https://github.com/LineageOS/android_packages_apps_Messaging.git packages/apps/Messaging
 
+rm -rf fram*/base*
+git clone https://github.com/EndLess728/platform_frameworks_base.git -b ten frameworks/base
+
+rm -rf vendor/aosip
+git clone https://github.com/EndLess728/platform_vendor_aosip.git -b ten vendor/aosip
+
 #Remove conflicts (Already defined in device tree) 
 #rm -rf device/asus/X01BD/data-ipa-cfg-mgr
 #rm -rf vendor/du/packages/overlays/NoCutoutOverlay
