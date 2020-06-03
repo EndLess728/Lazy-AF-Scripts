@@ -25,7 +25,7 @@ git clone https://github.com/MyTestLobby/android_vendor_asus_X01BD.git -b Q vend
 
 #Remove conflicts (Already defined in device tree) 
 #rm -rf device/asus/X01BD/data-ipa-cfg-mgr
-#rm -rf vendor/du/packages/overlays/NoCutoutOverlay
+rm -rf vendor/aosp/packages/overlays/NoCutoutOverlay
 
 #Remove Gapps
 #rm -rf vendor/gapps
