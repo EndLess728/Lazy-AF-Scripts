@@ -2,7 +2,7 @@
 rm -rf device/asus/X01BD
 git clone https://github.com/MyTestLobby/devie_asus_X01BD.git -b evo device/asus/X01BD
 rm -rf kernel/asus/sdm660
-git clone https://github.com/EndLess728/Etherious.git -b ten kernel/asus/sdm660
+git clone https://github.com/SonalSingh18/Etherious -b ten kernel/asus/sdm660
 #git clone https://github.com/SonalSingh18/android_kernel_asus_sdm660.git -b ten kernel/asus/sdm660
 rm -rf vendor/asus/X01BD
 git clone https://github.com/MyTestLobby/android_vendor_asus_X01BD.git -b Q vendor/asus/X01BD
