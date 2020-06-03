@@ -28,7 +28,7 @@ git clone https://github.com/MyTestLobby/android_vendor_asus_X01BD.git -b Q vend
 #rm -rf vendor/du/packages/overlays/NoCutoutOverlay
 
 #Remove Gapps
-rm -rf vendor/gapps
+#rm -rf vendor/gapps
 
 ## Build commands
 . build/envsetup.sh
