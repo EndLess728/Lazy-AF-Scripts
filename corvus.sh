@@ -4,7 +4,7 @@ git clone https://github.com/EndLess728/android_device_asus_X01BD-1 -b corvus de
 rm -rf kernel/asus/sdm660
 git clone https://github.com/SonalSingh18/Etherious -b ten kernel/asus/sdm660
 rm -rf vendor/asus/X01BD
-git clone https://github.com/MyTestLobby/android_vendor_asus_X01BD.git -b corvus vendor/asus/X01BD
+git clone https://github.com/EndLess728/android_vendor_asus_X01BD -b ten vendor/asus/X01BD
 
 #Track Dirac
 #rm -rf packages/apps/Dirac
