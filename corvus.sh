@@ -20,6 +20,10 @@ git clone https://github.com/EndLess728/android_vendor_asus_X01BD -b ten vendor/
 #rm -rf packages/apps/Messaging
 #git clone https://github.com/LineageOS/android_packages_apps_Messaging.git packages/apps/Messaging
 
+#Fix bootanimation
+rm -rf vendor/themes
+git clone https://github.com/MyTestLobby/android_vendor_themes vendor/themes
+
 #Remove conflicts (Already defined in device tree) 
 #rm -rf device/asus/X01BD/data-ipa-cfg-mgr
 rm -rf vendor/themes/overlays/NoCutoutOverlay
