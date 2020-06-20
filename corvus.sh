@@ -1,6 +1,6 @@
 #Device specific BLOBS 
 rm -rf device/asus/X01BD
-git clone https://github.com/X01BD-Android-Q/android_device_asus_X01BD -b corvus device/asus/X01BD
+git clone https://github.com/asusmaxprom2/android_device_asus_X01BD-1 -b corvus device/asus/X01BD
 rm -rf kernel/asus/sdm660
 git clone https://github.com/SonalSingh18/Etherious -b ten kernel/asus/sdm660
 rm -rf vendor/asus/X01BD
