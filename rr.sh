@@ -26,7 +26,7 @@ git clone https://github.com/SonalSingh18/android_vendor_asus_X01BD -b ten vendo
 
 #Remove conflicts (Already defined in device tree) 
 #rm -rf device/asus/X01BD/data-ipa-cfg-mgr
-rm -rf vendor/themes/overlays/NoCutoutOverlay
+#rm -rf vendor/themes/overlays/NoCutoutOverlay
 
 
 ## Build commands
