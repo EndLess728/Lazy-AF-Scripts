@@ -6,6 +6,8 @@ git clone https://github.com/SonalSingh18/android_kernel_asus_sdm660 -b ten kern
 rm -rf vendor/asus/X01BD
 git clone https://github.com/SonalSingh18/android_vendor_asus_X01BD -b ten vendor/asus/X01BD
 
+git clone https://github.com/kdrag0n/proton-clang -b master prebuilts/clang/host/linux-x86/clang-12.0.0
+
 #Track Dirac
 #rm -rf packages/apps/Dirac
 #git clone https://github.com/asusmaxprom2/android_packages_apps_Dirac.git packages/apps/Dirac
