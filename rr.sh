@@ -1,10 +1,10 @@
 #Device specific BLOBS 
 rm -rf device/asus/X01BD
-git clone https://github.com/React-Native-Noob/android_device_asus_X01BD-1 -b corvus device/asus/X01BD
+git clone https://github.com/Flutter-Noob/android_device_asus_X01BD-1 -b rr device/asus/X01BD
 rm -rf kernel/asus/sdm660
-git clone https://github.com/SonalSingh18/android_kernel_asus_sdm660 -b new kernel/asus/sdm660
+git clone https://github.com/SonalSingh18/android_kernel_asus_sdm660 -b ten kernel/asus/sdm660
 rm -rf vendor/asus/X01BD
-git clone https://github.com/EndLess728/android_vendor_asus_X01BD -b ten vendor/asus/X01BD
+git clone https://github.com/SonalSingh18/android_vendor_asus_X01BD -b ten vendor/asus/X01BD
 
 #Track Dirac
 #rm -rf packages/apps/Dirac
@@ -21,8 +21,8 @@ git clone https://github.com/EndLess728/android_vendor_asus_X01BD -b ten vendor/
 #git clone https://github.com/LineageOS/android_packages_apps_Messaging.git packages/apps/Messaging
 
 #Fix bootanimation
-rm -rf vendor/themes
-git clone https://github.com/React-Native-Noob/android_vendor_themes vendor/themes
+#rm -rf vendor/themes
+#git clone https://github.com/React-Native-Noob/android_vendor_themes vendor/themes
 
 #Remove conflicts (Already defined in device tree) 
 #rm -rf device/asus/X01BD/data-ipa-cfg-mgr
@@ -31,5 +31,5 @@ rm -rf vendor/themes/overlays/NoCutoutOverlay
 
 ## Build commands
 . build/envsetup.sh
-lunch du_X01BD-userdebug
-make corvus
+lunch rr_X01BD-userdebug
+mka bacon
